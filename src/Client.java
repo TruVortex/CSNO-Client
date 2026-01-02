@@ -62,7 +62,7 @@ public class Client {
                     out.println("DISCONNECT");
                     game.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
                 }
-            } catch (IOException ignored) {}
+            } catch (Exception ignored) {}
         }
     }
 }
